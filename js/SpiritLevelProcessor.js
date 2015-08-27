@@ -66,6 +66,8 @@ function SpiritLevelProcessor()
         if (storage.length >= buffer){
             storage.shift();
         }
+        
+        
         storage.push(newValue);
         
         var totals = [0,0,0];
