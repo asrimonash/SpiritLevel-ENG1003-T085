@@ -61,6 +61,7 @@ function SpiritLevelProcessor()
     }
     
     var storage = new Array();
+    
     function movingAverage(buffer,newValue){
         if (storage.length >= buffer){
             storage.shift();
