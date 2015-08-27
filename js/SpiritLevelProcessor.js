@@ -78,7 +78,6 @@ function SpiritLevelProcessor()
             smoothA[i] = totals[i]/buffer;
         }
         console.log(smoothA);
-        
     }
 
                 // This function handles the Moving Average Filter
